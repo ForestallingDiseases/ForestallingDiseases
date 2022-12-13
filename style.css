@@ -1,0 +1,55 @@
+body { 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a { 
+    text-decoration: none;
+    color: blue;
+}
+a:hover { 
+    text-decoration: underline;
+}
+.Main { 
+    margin: 20px;
+}
+.NavBar { 
+    padding: 20px;
+    background: rgba(216, 140, 52, 1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.NavBar a { 
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+.NavBar a:hover { 
+    color: gainsboro;
+}
+.CardView { 
+    margin-top: 20px;
+    border: 1px rgba(216, 140, 52, 1) solid;
+    padding: 10px;
+    border-radius:20px;
+    width: 300px;
+    height: max-content;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 1s;
+}
+.CardView:hover { 
+    box-shadow: 0 4px 8px 0 rgba(216, 140, 52, 1), 0 6px 20px 0 rgba(216, 140, 52, 1);
+    transition: 0.1s;
+}
+.CardView p { 
+    color: grey;
+    font-size: 15px;
+}
+.CardView a { 
+    text-decoration: none;
+}
+.CardView h1 { 
+    color: black;
+}
+.AreaStack { 
+    display: flex;
+}
